@@ -1,7 +1,18 @@
-# node-simple
-
-1、primary-simple
+primary-simple
 ====
+ 
+
+#### 使用技术
+
+- node
+- mysql
+- redis
+- log
+- xss
+- crypto
+
+项目运行
+----
 
 - 安装依赖
 ```
@@ -23,5 +34,3 @@ redis-server
 ```
 npm run dev
 ```
-
-2、
