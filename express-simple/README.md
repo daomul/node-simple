@@ -33,3 +33,10 @@ redis-server
 ```
 npm run dev
 ```
+
+- new express project
+```
+npm install express-generator -g
+express express-simple2
+npm install & npm start
+```

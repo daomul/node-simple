@@ -1,27 +1,43 @@
 # node-simple
 
-1、primary-simple
-====
+- primary-simple
+```
+cd primary-simple
+```
 
-- 安装依赖
+- express-simple
+```
+cd express-simple
+```
+
+- koa2-simple
+```
+cd koa2-simple
+```
+
+Or you can view its files in each project README .
+If you need the database tables used in the demo project, you can refer to the blog-simple.sql file .
+
+
+- install
 ```
 npm install
 ```
 
-- 启动 mysql
+- start mysql
 ```
 docker ps -a
-docker start xxxid
+docker start xxxid(ur mysql)
 ```
 
-- 启动 redis
+- start redis
 ```
 redis-server
+redis-cli(check ur redis keys*)
 ```
 
-- 开发模式运行
+- running
 ```
 npm run dev
 ```
-
-2、
+ 

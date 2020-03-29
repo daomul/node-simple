@@ -45,7 +45,7 @@ const sessionStore = new RedisStore({
 
 // session handler 
 app.use(session({
-  secret: 'TEDS_82920#_',
+  secret: 'TEDS_890#',
   cookie: {
     path: '/',  // default
     httpOnly: true, // default
